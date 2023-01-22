@@ -4,7 +4,7 @@ import Send from './assets/send.svg'
 import bot from './assets/bot.svg'
 import user from './assets/user.svg'
 import sablogo from './assets/sablogo.png'
-import gptlogo from './assets/gptlogo.png'
+import gptlogo from './assets/chatgptlogo.png'
 import.meta.env
 
 function App() {
