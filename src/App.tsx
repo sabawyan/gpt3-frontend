@@ -5,7 +5,6 @@ import bot from './assets/bot.svg'
 import user from './assets/user.svg'
 import sablogo from './assets/sablogo.png'
 import gptlogo from './assets/chatgptlogo.png'
-import.meta.env
 
 function App() {
 
@@ -139,7 +138,7 @@ function App() {
 
   return (
     <div className="app">
-      <div>
+      <div className="logosbg">
         <a href="https://sabawyan.tech/" target="_blank">
           <img src={sablogo} className="logo" alt="Sabawyan logo" />
         </a>
