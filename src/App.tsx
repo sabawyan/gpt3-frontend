@@ -137,16 +137,14 @@ function App() {
 
   return (
     <div className="app">
-      <div style={{ border: "1px solid #ccc" }}>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/sablogo.png" className="logo" alt="Vite logo" />
+      <div>
+        <a href="https://sabawyan.tech/" target="_blank">
+          <img src="/sablogo.png" className="logo" alt="Sabawyan logo" />
         </a>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/chatgptlogo.png" className="logo" alt="Vite logo" />
+        <a href="https://openai.com/" target="_blank">
+          <img src="/chatgptlogo.png" className="logo" alt="Openai logo" />
         </a>
       </div>
-      {/* <ChatContainer />
-      <Form /> */}
 
       <div ref={ref_container} id="chat_container">
         {
