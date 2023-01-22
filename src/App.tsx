@@ -145,9 +145,6 @@ function App() {
         <a href="https://openai.com/" target="_blank">
           <img src={gptlogo} className="logo" alt="Openai logo" />
         </a>
-        <a href="https://openai.com/" target="_blank">
-          <img src={gptlogo} className="logo" alt="Openai logo" />
-        </a>
       </div>
 
       <div ref={ref_container} id="chat_container">
