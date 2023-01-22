@@ -3,6 +3,8 @@ import './App.css'
 import Send from './assets/send.svg'
 import bot from './assets/bot.svg'
 import user from './assets/user.svg'
+import sablogo from './assets/sablogo.png'
+import gptlogo from './assets/gptlogo.png'
 import.meta.env
 
 function App() {
@@ -139,10 +141,10 @@ function App() {
     <div className="app">
       <div>
         <a href="https://sabawyan.tech/" target="_blank">
-          <img src="/sablogo.png" className="logo" alt="Sabawyan logo" />
+          <img src={sablogo} className="logo" alt="Sabawyan logo" />
         </a>
         <a href="https://openai.com/" target="_blank">
-          <img src="/chatgptlogo.png" className="logo" alt="Openai logo" />
+          <img src={gptlogo} className="logo" alt="Openai logo" />
         </a>
       </div>
 
